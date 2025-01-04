@@ -126,7 +126,13 @@ CardView must be created with a unique ID otherwise it will throw an error.
 
 ## Download
 
+This extension is based on androidx card view library which can not be compiled in extension because of resources, so to use this extension in your apps, you must drag a list view component in one of your screen and then you can hide it. This would add the card view library to your app. If you forget to do that extension will show you a runtime error. The extension will work fine in companion.
+
+**Note: The material card view extension is made by modifying the material card view library, so some property like elevation and stroke might not work perfectly in some cases. Androidx CardView is more reliable than the material card view but it lacks the stroke property.**
+
 https://sumitkmr.com/projects/doc/material-cardview
+
+or Download it from [here](out/)
 
 ## Credit
 
